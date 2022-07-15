@@ -18,6 +18,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -100,11 +101,12 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    /* chg couleur cf contrastes wcag */
+    color: #212121;
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: #212121;
 }
 
 .d-bloc .icon-round,
@@ -112,11 +114,11 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color: #212121;
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: #212121;
 }
 
 .d-bloc .a-btn,
@@ -133,7 +135,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba#212121;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,17 +152,17 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #212121;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: #212121;
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
+    color: #212121;
+    border-color: #212121;
 }
 
 .d-bloc .panel {
@@ -290,6 +292,11 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+}
+.avis{
+    font-size: 19px;
+    font-style: italic;
+   
 }
 
 .navbar-brand {
@@ -649,9 +656,10 @@ p,
 label,
 .btn,
 a {
+    /* chgt couleur pb contraste wcag */
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #212121!important;
 }
 
 .container {
@@ -753,7 +761,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /* background couleur changé pour respecter les contrastes WCAG */
+    background-color: #473F29;
     padding: 40px 40px 40px 40px;
 }
 
@@ -818,7 +827,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere-revu.jpg");
 }
 
 .bg-presentation {
