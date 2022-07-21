@@ -56,6 +56,12 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+/* MISE EN PAGE PAGE 2 CONTACT MAIS BOUGE LA MISE EN PAGE PAGE1
+.col-sm-6 p{
+    width: auto;
+    margin-top: 44rem;
+    margin-left: -36rem;
+} */
 
 .bg-center,
 .bg-l-edge,
@@ -289,6 +295,7 @@ a:hover {
     font-size: 32px;
 }
 
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -296,7 +303,20 @@ a:hover {
 .avis{
     font-size: 19px;
     font-style: italic;
-   
+
+}
+.col-xs-12 p:last-child{
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+.col-sm-12 .tc-white{
+    /* contraste couleurs */
+    color: black!important
+
+}
+.mg-md.text-center.tc-white{
+    color: #F3976C!important;
 }
 
 .navbar-brand {
@@ -827,11 +847,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-revu.jpg");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation redimensionnee.bmp");
+    background-image: url("img/image-de-presentation\ redimensionnee.png");
 }
 
 @media (max-width: 1024px) {
