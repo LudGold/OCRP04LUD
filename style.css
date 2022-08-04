@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: grey!important;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -60,9 +60,10 @@ a:hover {
     padding: 20px 50px;
 }
 
-.d-bloc.col-sm-12 .white{
+ .d-bloc.col-sm-12 .white{
     color: #212121!important;
-}
+} 
+
 
 .bg-center,
 .bg-l-edge,
@@ -111,6 +112,9 @@ a:hover {
 .d-bloc {
     /* chg couleur cf contrastes wcag */
     color: #212121;
+}
+.motivation-text{
+    background-color: #595959;
 }
 
 .d-bloc button:hover {
@@ -319,8 +323,11 @@ a:hover {
     font-weight: 900;
 
 }
+
 .mg-md.text-center.tc-white{
-    color: #F3976C!important;
+    color: white!important;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 .navbar-brand {
@@ -707,11 +714,11 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-.text-portfolio p{
-    font-size: 22px!important   ;
-}
+
 .text-center p{
     font-size: 20px;
+    font-weight: 600;
+    background: #F3976C;
 }
 p {
     font-size: 11px;
@@ -729,7 +736,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #212121!important;
+    color: black!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -789,10 +796,15 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    font-weight: 900;
 }
 .portfolio-row img{
     width: 270px;
     height: 270px;
+}
+.description-text-h3{
+    font-weight: 800;
+    background: lightgrey;
 }
 
 .avatar {
@@ -813,10 +825,10 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-
+/* 
 .bgc-dark-slate-blue {
     background-color: #364577;
-}
+} */
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -866,18 +878,25 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.png");  
+    
     height: auto;
     width: auto;
 }
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
-    opacity: 0.9;
+   
     background-size: cover!important;
     width: auto;
     height: auto;
 }
+#bloc-text-contact{
+    background: black;
+}
+ .text-center-header{
+    background:  black;
+} 
 
 .bg-presentation {
     background-image: url("img/image-de-presentation-redimensionnee.webp");
@@ -932,11 +951,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -945,8 +960,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding: constant(safe-area-inset-left);
-        padding: constant(safe-area-inset-right);
+        
     }
 }
 
